@@ -1,0 +1,32 @@
+#vertical-menu{
+    width : 200px;
+    height: 150px;
+    overflow-y: auto;
+   }
+   
+   #vertical-menu a
+   {
+   background-color: #eee;
+   color: black;
+   display: block;
+   padding: 12px;
+   text-decoration: None;
+   
+   }
+    #vertical-menu a:hover{
+        background-color: #ccc;
+   
+    }
+    #vertical-menu a.active {
+   
+       bacgroound-color: #4CAF50;
+       color: white;
+    }
+   
+    #left{
+        float:left;
+        width: 170 px;
+        height:880 px;
+        background: lightblue;
+        
+    }
